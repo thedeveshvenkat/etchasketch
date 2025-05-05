@@ -7,7 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="reset">New Grid</button>
+    <h1 class="heading" style="box-shadow: 3px 3px 7px; background-color: darkslategray; color: white; border-radius: 10px; margin-bottom: 10px; padding: 5px; width: 201px;"> Etch-A-Sketch</h1>
+    <button id="reset" style="box-shadow: 3px 3px 7px; background-color: darkslategray; color: white; border-radius: 10px; margin-bottom: 10px; padding: 5px;">New Grid</button>
+    <form>
+        <fieldset style="width: 270px; border-radius: 10px;">
+            <legend style="box-shadow: 3px 3px 7px; background-color: darkslategray; color: white; border-radius: 10px; margin-bottom: 10px; padding: 5px;">Options:</legend>
+            <input type="checkbox" id="opaque" name="Increasing Opacity">
+            <label for="opaque">Increasing Opacity</label>
+
+            <input type="checkbox" id="sc" name="Random Color">
+            <label for="sc">Random Color</label>
+        </fieldset>
+    </form>
+    <br>
     <div id="container">
 
     </div>
@@ -15,3 +27,8 @@
     <script src="javascript.js"></script>
 </body>
 </html>
+
+
+
+
+
